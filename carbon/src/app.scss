@@ -1,0 +1,11 @@
+@use '@carbon/styles';
+@use '@carbon/grid';
+
+@use './Components/GlobalHeader/GlobalHeader.scss';
+@use './Components/NavHeader/NavHeader.scss';
+@use './Components/Footer/Footer.scss';
+@use './Components/About/About.scss';
+
+@include grid.flex-grid();
+
+

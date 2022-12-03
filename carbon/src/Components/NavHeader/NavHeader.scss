@@ -1,0 +1,15 @@
+@use '@carbon/react/scss/type' as *;
+.NavHeader .cds--tabs{
+    justify-content: flex-end;
+}
+
+.cds--tab-content{
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+.landing-page__heading {
+    @include type-style('productive-heading-05');
+  }
+
